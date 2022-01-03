@@ -4,12 +4,16 @@
   "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "keywords": [],
   "author": "Martín Hernandez <martinalejandrohernandez1@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
